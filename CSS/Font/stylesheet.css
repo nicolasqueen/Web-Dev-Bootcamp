@@ -1,0 +1,67 @@
+/*font-family*/
+
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Yellowtail', cursive;*/
+
+p {
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/*font-size*/
+
+    /*px is for sizing in pixel values and is static.
+
+    em is dynamic way of sizing relative to the size of the font in the parent. if the parent is 16px,then 1em is equal to 16px, and 2emis equal to 32px.*/
+
+body {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5.0em;
+}
+
+span {
+  font-size: 2.0em;
+}
+
+p {
+  font-size: 2.0em;
+}
+
+/*font-weight*/
+
+ /* Weight refers to how bold or lighweight the text is.*/
+
+ p {
+  font-weight: bold;
+ }
+
+/*line-height*/
+
+/*Determines spacing between the lines, like double spacing school papers.*/
+
+p {
+  line-height: 1.5;
+}
+
+/*text-align*/
+
+h1 {
+  text-align: center;
+}
+
+/*text-decoration*/
+
+p {
+  text-decoration: underline;
+}
+
+h1 {
+  text-decoration: line-through;
+}

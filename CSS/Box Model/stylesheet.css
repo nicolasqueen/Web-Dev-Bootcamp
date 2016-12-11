@@ -1,0 +1,26 @@
+
+/*In a document, each element is represented as a rectangular box. In CSS, each of these rectangular boxes is described using the standard box model. This model describes the content of the space taken by an element. Each box has four edges: the margin edge, border edge, padding edge, and content edge.
+
+Between the element inside to the border is the padding. Between the border and the outside edge is the margin.*/
+
+p {
+
+/*Content - Width and Height*/
+
+width: 50%;
+
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding*/
+
+padding: 10px;
+
+/*Margin*/
+
+/*margin: 20px 40px 500px 100px;*/
+
+margin: 0 auto;
+
+}

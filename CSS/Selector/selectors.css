@@ -1,0 +1,57 @@
+/*Element*/
+
+li {
+
+}
+
+/*Class*/
+
+.hello {
+
+}
+
+/*ID*/
+
+#name {
+
+}
+
+/*Star*/
+
+    /*Targets every single element on the page.*/
+
+* {
+    border: 1px solid lightgrey;
+}
+
+/*Descendent Selector*/
+
+    /*Selects the descendant of an element, such as (li a) targets the <a> tags within <li>*/
+
+li a {
+  color: red;
+}
+
+/*Adjacent Selector*/
+
+    /*Select elements that come after immediately after another element, such as in this example the <ul> immediately after each <h4>*/
+
+    h4 + ul {
+      border: 1px solid blue;
+    }
+
+/*Attribute Selector*/
+
+    /*Select elements based on their individual attributes, such as this one selects each of the href's targeting http://www.google.com */
+
+a[href="http://www.google.com"] {
+  background: blue;
+}
+
+/*nth of type*/
+
+    /*Takes a number, such as every 5th <p> and targets it. In this example, every third <li> is selected. It can also target even and odd.*/
+
+li:nth-of-type(3) {
+  background: purple;
+}
